@@ -28,8 +28,8 @@ def mirrored(s):
             
     return s[start : end + 1]
 
-# --- Hard Coded Input --
+# Hard Coded Input 
 s_input = "babad"
 
-# --- Execution ---
+# Execution
 print("Mirrored Phrase: ",mirrored(s_input))
