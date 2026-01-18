@@ -37,10 +37,10 @@ def detect_anagrams(s, p):
             
     return indices
 
-# --- Hard Coded Input ---
+# Hard Coded Input
 s_input = "cbaebabacd"
 p_input = "abc"
 
-# --- Execution ---
+# Execution
 result = detect_anagrams(s_input, p_input)
 print(result)
