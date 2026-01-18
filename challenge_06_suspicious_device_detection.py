@@ -8,7 +8,7 @@ def find_suspicious_device(nums):
             return x
 
 def main():
-    # 🔽 HARD-CODED INPUT
+    # HARD-CODED INPUT
     nums = [2, 1, 2, 5, 3, 2]
 
     print(find_suspicious_device(nums))
