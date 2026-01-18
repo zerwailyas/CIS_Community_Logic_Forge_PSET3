@@ -61,13 +61,13 @@ def solve_greedy(N, Q, limit, weights, priority, queries):
 
     return min_boats, results
 
-# --- Input Data ---
+# Input Data 
 weights = [30, 50, 60, 40, 70, 80]
 priority = [1, 0, 1, 0, 0, 1]
 limit = 100
 queries = ["CANPAIR 0 1", "CANPAIR 0 2", "REMAINING 2"]
 
-# --- Execution ---
+# Execution 
 min_boats, answers = solve_greedy(6, 3, limit, weights, priority, queries)
 
 print("Minimum boats =", min_boats)
